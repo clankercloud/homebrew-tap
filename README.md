@@ -2,6 +2,8 @@
 
 Homebrew tap for Clanker Cloud tooling.
 
+Upstream Clanker CLI repo: https://github.com/bgdnvk/clanker
+
 ## Install
 
 ```bash
