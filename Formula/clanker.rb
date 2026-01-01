@@ -7,10 +7,10 @@ class Clanker < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/bgdnvk/clanker/releases/download/v0.0.2/clanker_v0.0.2_darwin_arm64.tar.gz"
-      sha256 "72191f65af86911cb7993fe3673295c02ac440302731e7426df1c60b980d9c40"
+      sha256 "da25a85c372f62657b037303ed76d17ee48d75e4a559802177512d33b277aab2"
     else
       url "https://github.com/bgdnvk/clanker/releases/download/v0.0.2/clanker_v0.0.2_darwin_amd64.tar.gz"
-      sha256 "a2fcf46169f2ea1a9b5c0bf3fe584fcb1cddf9ee67a95ddcfe65d21d03bd7647"
+      sha256 "bcf2700119688223a485c1e294ae995b5f842b66af7916f7bd948b8db186df57"
     end
   end
 
