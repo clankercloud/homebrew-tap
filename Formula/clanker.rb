@@ -15,7 +15,7 @@ class Clanker < Formula
   end
 
   on_linux do
-    odie "Clanker is currently only available for macOS."
+    disable! date: "2026-05-24", because: "Clanker is currently only available for macOS"
   end
 
   def install
@@ -23,6 +23,6 @@ class Clanker < Formula
   end
 
   test do
-    system "#{bin}/clanker", "--help"
+    system bin/"clanker", "--help"
   end
 end
