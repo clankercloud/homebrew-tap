@@ -2,15 +2,15 @@ class Clanker < Formula
   desc "AI-powered terminal for Cloud queries"
   homepage "https://github.com/bgdnvk/clanker"
 
-  version "0.0.7"
+  version "0.0.8"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bgdnvk/clanker/releases/download/v0.0.7/clanker_v0.0.7_darwin_arm64.tar.gz"
-      sha256 "472c1f355a71d4da0d44e177bf9fde0aab28ac91a0637726aad079a31b39cd05"
+      url "https://github.com/bgdnvk/clanker/releases/download/v0.0.8/clanker_v0.0.8_darwin_arm64.tar.gz"
+      sha256 "ef30c4195c800f2535762c8d00535ad95a8a566d78ceccf4b09c732841207cdd"
     else
-      url "https://github.com/bgdnvk/clanker/releases/download/v0.0.7/clanker_v0.0.7_darwin_amd64.tar.gz"
-      sha256 "dcf44d433f8253bb8fa87ad6efa82483c911f48f5e514932fc40421d18bd1784"
+      url "https://github.com/bgdnvk/clanker/releases/download/v0.0.8/clanker_v0.0.8_darwin_amd64.tar.gz"
+      sha256 "26b06617d0277f8208313b3c5ea649eb723ec6ecf54c8fc65b54cc186068c5ea"
     end
   end
 
